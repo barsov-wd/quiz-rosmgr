@@ -1,0 +1,25 @@
+.features {
+    padding-top: 60px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1588px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        width: 307px;
+        height: 88px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: rgba(#fff, .4);
+        padding: 14px 7px 14px 25px;
+    }
+    &__item-descr {
+        font-size: 20px;
+        line-height: 120%;
+        color: #2D2D2D;
+        margin-left: 35px;
+    }
+}

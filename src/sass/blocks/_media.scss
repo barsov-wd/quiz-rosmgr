@@ -1,0 +1,971 @@
+@media (max-width: 1669px) {
+    .container {
+        max-width: 1560px;
+    }
+    .promo {
+        padding-top: 20px;
+        &__content {
+            padding-top: 65px;
+        }
+    }
+    .quiz {
+        &__items {
+            margin-right: 130px;
+        }
+    }
+    .features {
+        &__items {
+            width: 1548px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1460px;
+    }
+    .promo {
+        padding-top: 18px;
+        &__content {
+            padding-top: 62px;
+        }
+        &__title {
+            width: 910px;
+            font-size: 56px;
+        }
+    }
+    .quiz {
+        padding-top: 57px;
+        min-height: 715px;
+        &__items {
+            margin-right: 70px;
+        }
+        &__box {
+            margin-bottom: 65px;
+        }
+    }
+    .title {
+        font-size: 50px;
+    }
+    .last {
+        padding-top: 90px;
+        &__title {
+            width: 1020px;
+        }
+    }
+    .features {
+        &__items {
+            width: 1448px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1360px;
+    }
+    .promo {
+        &__content {
+            padding-top: 57px;
+        }
+        &__title {
+            font-size: 54px;
+            width: 850px;
+        }
+        &__image {
+            width: 570px;
+            height: 570px;
+        }
+    }
+    .quiz {
+        padding-top: 55px;
+        min-height: 700px;
+        &__items {
+            margin-right: 20px;
+        }
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__box {
+            margin-bottom: 60px;
+        }
+    }
+    .last {
+        padding-top: 80px;
+        &__title {
+            width: 990px;
+            margin-bottom: 48px;
+        }
+    }
+    .title {
+        font-size: 48px;
+    }
+    .features {
+        padding-top: 57px;
+        &__items {
+            width: 1348px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1260px;
+    }
+    .promo {
+        &__content {
+            padding-top: 55px;
+        }
+        &__subtitle {
+            font-size: 22px;
+            &::before {
+                width: 470px;
+            }
+        }
+        &__title {
+            font-size: 50px;
+            width: 800px;
+        }
+        &__image {
+            width: 530px;
+            height: 530px;
+        }
+    }
+    .quiz {
+        padding-top: 45px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__progress {
+            width: 580px;
+        }
+    }
+    .subtitle {
+        font-size: 22px;
+        &::before {
+            width: 470px;
+        }
+        &__box {
+            margin-bottom: 55px;
+        }
+    }
+    .last {
+        padding-top: 70px;
+        &__title {
+            width: 930px;
+            margin-bottom: 40px;
+        }
+        &__form {
+            margin-bottom: 60px;
+        }
+    }
+    .features {
+        padding-top: 55px;
+        &__items {
+            width: 1248px;
+        }
+        &__item {
+            width: 295px;
+        }
+        &__item-descr {
+            font-size: 18px;
+        }
+    }
+    .footer {
+        padding-top: 48px;
+    }
+    .modal {
+        &-main__dialog {
+            width: 1221px;
+            height: 645px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+    }
+    .header {
+        padding: 18px 0;
+        &__button {
+            width: 365px;
+        }
+    }
+    .promo {
+        &__content {
+            padding-top: 49px;
+        }
+        &__title {
+            font-size: 46px;
+            width: 735px;
+        }
+        &__image {
+            width: 495px;
+            height: 495px;
+        }
+    }
+    .quiz {
+        padding-top: 40px;
+        min-height: 695px;
+        &__items {
+            margin-right: 0;
+        }
+        &__item {
+            margin-bottom: 30px;
+        }
+        &__input-group {
+            width: 395px;
+        }
+        &__title {
+            margin-bottom: 38px;
+        }
+        &__box {
+            margin-bottom: 55px;
+        }
+        &__progress {
+            width: 540px;
+        }
+    }
+    .last {
+        padding-top: 65px;
+        &__title {
+            width: 830px;
+            margin-bottom: 38px;
+        }
+        &__input-group {
+            width: 395px;
+        }
+        &__form {
+            margin-bottom: 55px;
+        }
+        &__items {
+            margin-top: 15px;
+        }
+    }
+    .title {
+        font-size: 47px;
+    }
+    .features {
+        &__items {
+            width: 1161px;
+        }
+        &__item {
+            width: 270px;
+        }
+        &__item-descr {
+            margin-left: 20px;
+        }
+    }
+    .modal {
+        &-main__dialog {
+            width: 1150px;
+            height: 630px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        padding-bottom: 5px;
+        &__inner {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &__button {
+            display: none;
+        }
+        &__button-mobile {
+            display: block;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            justify-self: end;
+        }
+        &__logo {
+            font-size: 32px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .promo {
+        padding-top: 0;
+        &__content {
+            padding-top: 50px;
+        }
+        &__image {
+            width: 385px;
+            height: 414px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            &::before {
+                width: 427px;
+            }
+        }
+        &__title {
+            font-size: 38px;
+            width: 565px;
+        }
+        &__descr {
+            font-size: 22px;
+            line-height: 27px;
+        }
+    }
+    .quiz {
+        padding-top: 57px;
+        min-height: 744px;
+        &__inner {
+            align-items: flex-start;
+        }
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__input-group {
+            width: 405px;
+            height: 55px;
+        }
+        &__box {
+            max-width: 405px;
+            margin-bottom: 40px;
+        }
+        &__button {
+            width: 220px;
+            height: 55px;
+            margin-right: 17px;
+        }
+    }
+    .subtitle {
+        font-size: 18px;
+        line-height: 21px;
+        &::before {
+            width: 391px;
+            height: 2px;
+            bottom: -15px;
+        }
+    }
+    .title {
+        min-width: 424px;
+        max-width: 550px;
+        width: 100%;
+        font-size: 34px;
+    }
+    .last {
+        padding-top: 60px;
+        &__title {
+            width: 600px;
+        }
+        &__form {
+            flex-direction: column;
+        }
+        &__input-group {
+            width: 405px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item {
+            margin-bottom: 25px;
+        }
+    }
+    .features {
+        &__items {
+            width: 952px;
+        }
+        &__item {
+            width: 220px;
+        }
+        &__item-image {
+            width: 40px;
+            height: 40px;
+        }
+        &__item-descr {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        &__policy-link,
+        &__info {
+            font-size: 16px;
+        }
+    }
+    .modal {
+        &-main__dialog {
+            padding-top: 53px;
+            width: 832px;
+            height: 522px;
+        }
+        &-main__title {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        &-main__close {
+            top: 30px;
+            right: 61px;
+            width: 30px;
+            height: 30px;
+        }
+        &-main__descr {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 832px;
+    }
+    .header {
+        &__inner {
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+    }
+    .promo {
+        &__subtitle {
+            font-size: 18px;
+            margin-bottom: 27px;
+            &::before {
+                width: 385px;
+            }
+        }
+        &__title {
+            font-size: 35px;
+            width: 395px;
+        }
+        &__descr {
+            width: 445px;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        &__button {
+            width: 212px;
+            height: 55px;
+        }
+        &__image {
+            width: 326px;
+            height: 394px;
+        }
+    }
+    .button {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .quiz {
+        padding-top: 52px;
+        min-height: 740px;
+        &__item {
+            width: 225px;
+            height: 64px;
+            margin-bottom: 25px;
+            padding-left: 9px;
+        }
+        &__item-image {
+            width: 45px;
+            height: 45px;
+        }
+        &__item-descr {
+            margin-left: 23px;
+            font-size: 15px;
+        }
+        &__button {
+            width: 197px;
+        }
+        &__progress {
+            width: 408px;
+        }
+        &__input {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+    .title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .last {
+        &__title {
+            width: 567px;
+            margin-bottom: 30px;
+        }
+        &__input-group {
+            height: 55px;
+        }
+        &__input {
+            font-size: 18px;
+            line-height: 21px;
+        }
+        &__items {
+            margin-top: 0;
+        }
+        &__item {
+            width: 225px;
+            height: 64px;
+            padding-left: 9px;
+        }
+        &__item-image {
+            width: 45px;
+            height: 45px;
+        }
+        &__item-descr {
+            margin-left: 23px;
+            font-size: 15px;
+            line-height: 120%;
+        }
+        &__form {
+            margin-bottom: 40px;
+        }
+        &__button {
+            width: 197px;
+            height: 55px;
+            margin-right: 15px;
+        }
+        &__small-text {
+            width: 293px;
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+    .features {
+        padding-top: 45px;
+        &__items {
+            width: 824px;
+        }
+        &__item {
+            width: 190px;
+            height: 56px;
+            padding-left: 7px;
+            padding-right: 2px;
+        }
+        &__item-descr {
+            font-size: 13px;
+            margin-left: 20px;
+        }
+    }
+    .footer {
+        padding-top: 31px;
+        &__policy-link,
+        &__info {
+            font-size: 14px;
+            width: 595px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 866px) {
+    .container {
+        max-width: 750px;
+    }
+    .header {
+        &__logo {
+            font-size: 30px;
+        }
+    }
+    .title {
+        font-size: 31px;
+        line-height: 31px;
+    }
+    .last {
+        padding-top: 57px;
+        &__title {
+            width: 520px;
+        }
+    }
+    .features {
+        &__items {
+            width: 750px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        &__item {
+            width: 250px;
+        }
+    }
+    .modal {
+        &-main__dialog {
+            padding-top: 102px;
+            padding-bottom: 53px;
+            width: 335px;
+            min-height: 554px;
+            border-radius: 20px;
+        }
+        &-main__close {
+            width: 20px;
+            height: 20px;
+            top: 35px;
+            right: 35px;
+        }
+        &-main__title {
+            font-size: 28px;
+            line-height: 100%;
+        }
+        &-main__descr {
+            width: 249px;
+            font-size: 16px;
+            line-height: 19px;
+            margin: 0 auto 25px;
+        }
+        &-main__input-group {
+            width: 315px;
+        }
+        &-main__input {
+            font-size: 16px;
+            line-height: 19px;
+            height: 50px;
+        }
+        &__select {
+            width: 315px;
+            height: 50px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__select-option {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &-main__button {
+            width: 315px;
+            height: 50px;
+        }
+        &-main__text-small {
+            width: 315px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        padding-top: 15px;
+        &__text {
+            display: none;
+        }
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        &__text-mobile {
+            font-family: 'Lato Regular', sans-serif;
+            font-weight: 400;
+            width: 355px;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 17px;
+            line-height: 21px;
+            color: #2A58E9;
+        }
+    }
+    .promo {
+        &__image {
+            display: none;
+        }
+        &__content {
+            padding-top: 25px;
+            text-align: center;
+        }
+        &__subtitle {
+            &::before {
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -10px;
+            }
+        }
+        &__title {
+            width: 375px;
+            margin: 0 auto 14px;
+            &--red {
+                margin-bottom: 0;
+            }
+        }
+        &__descr {
+            margin: 0 auto 20px;
+        }
+        &__image-mobile {
+            display: block;
+            margin: 0 auto;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+        }
+    }
+    .quiz {
+        padding-top: 25px;
+        &__inner {
+            flex-direction: column;
+        }
+        &__progress {
+            position: static;
+            margin: 0 auto;
+            transform: none;
+            left: none;
+        }
+        &__subtitle {
+           text-align: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__box {
+            margin: 0 auto 40px;
+        }
+        &__button-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+        &__progress {
+            margin-bottom: 50px;
+        }
+        &__items {
+            margin: 0 auto;
+        }
+        &__item {
+            width: 307px;
+            height: 88px;
+        }
+        &__item-image {
+            width: 55px;
+            height: 55px;
+        }
+        &__item-descr {
+            font-size: 18px;
+            margin-left: 29px;
+        }
+    }
+    .subtitle {
+        &::before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .last {
+        padding-top: 30px;
+        text-align: center;
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__input-group {
+            margin: 0 auto 10px;
+            &:last-child {
+                margin: 0 auto;
+            }
+        }
+        &__small-text {
+            margin: 0 auto 30px;
+        }
+        &__item {
+            width: 307px;
+            height: 88px;
+        }
+        &__item-image {
+            width: 55px;
+            height: 55px;
+        }
+        &__item-descr {
+            margin-left: 29px;
+            font-size: 18px;
+        }
+    }
+    .features {
+        padding-top: 10px;
+        &__items {
+            width: 540px;
+        }
+    }
+    .footer {
+        padding-top: 47px;
+        padding-bottom: 34px;
+        &__policy-link,
+        &__info {
+            width: 520px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header {
+        &__text-mobile {
+            width: 335px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__logo {
+            font-size: 32px;
+        }
+    }
+    .promo {
+        &__content {
+            padding-top: 20px;
+        }
+        &__subtitle {
+            width: 335px;
+            margin: 0 auto 31px;
+            &::before {
+                width: 335px;
+            }
+        }
+        &__title {
+            width: 335px;
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &__descr {
+            width: 335px;
+            font-size: 18px;
+            line-height: 21px;
+            margin: 0 auto 23px;
+        }
+        &__image-mobile {
+            width: 335px;
+            height: 335px;
+            object-fit: contain;
+        }
+    }
+    .quiz {
+        padding-top: 20px;
+        &__content {
+            margin: 0 auto;
+        }
+        &__subtitle {
+            width: 335px;
+            margin: 0 auto 35px;
+            text-align: center;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 38px;
+            margin-bottom: 28px;
+        }
+        &__box {
+            max-width: 335px;
+        }
+        &__input-group {
+            width: 335px;
+            height: 50px;
+        }
+        &__button-group {
+            flex-direction: column;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__progress {
+            width: 328px;
+        }
+        &__input {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__label__text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .title {
+        min-width: 335px;
+        max-width: 335px;
+        width: 100%;
+    }
+    .subtitle {
+        &::before {
+            width: 335px;
+        }
+    }
+    .last {
+        padding-top: 25px;
+        &__title {
+            width: 335px;
+            font-size: 28px;
+            line-height: 32px;
+            margin: 0 auto 35px;
+        }
+        &__input-group {
+            width: 335px;
+        }
+        &__input {
+            font-size: 15px;
+            line-height: 18px;
+        }
+        &__form {
+            margin-bottom: 35px;
+        }
+        &__button-group {
+            flex-direction: column;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .features {
+        padding-top: 0;
+        &__items {
+            width: 307px;
+            gap: 0;
+            display: block;
+            margin: 0 auto;
+        }
+        &__item {
+            width: 307px;
+            height: 88px;
+            margin-bottom: 20px;
+            padding-top: 12px;
+            padding-left: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-image {
+            width: 55px;
+            height: 55px;
+        }
+        &__item-descr {
+            font-size: 18px;
+            margin-left: 29px;
+        }
+    }
+    .footer {
+        &__policy-link,
+        &__info {
+            width: 335px;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.title {
+    font-family: 'Raleway ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 110%;
+    color: #2D2D2D;
+    min-width: 675px;
+    max-width: 1123px;
+    &--color {
+        color: #EE3F58;
+    }
+}

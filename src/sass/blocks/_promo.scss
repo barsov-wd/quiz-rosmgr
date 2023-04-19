@@ -1,0 +1,53 @@
+.promo {
+    padding-top: 23px;
+    &__container {
+        position: relative;
+    }
+    &__image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__content {
+        padding-top: 67px;
+    }
+    &__subtitle {
+        margin-bottom: 32px;
+    }
+    &__title {
+        width: 940px;
+        font-family: 'Raleway Black', sans-serif;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 120%;
+        color: #2D2D2D;
+        margin-bottom: 12px;
+        &--red {
+            display: block;
+            margin-bottom: 0;
+            color: #EE3F58;
+        }
+        &--blue {
+            color: #2A58E9;
+        }
+    }
+    &__descr {
+        width: 576px;
+        font-family: 'Lato Heavy', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2D2D2D;
+        margin-bottom: 35px;
+    }
+    &__button {
+        width: 270px;
+        height: 60px;
+        color: #fff;
+        background: #EE3F58;
+        box-shadow: 2px 2px 4px rgba(173, 45, 63, 0.25);
+    }
+}
