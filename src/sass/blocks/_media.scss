@@ -74,7 +74,7 @@
         }
         &__image {
             width: 570px;
-            height: 570px;
+            // height: 570px;
         }
     }
     .quiz {
@@ -128,7 +128,7 @@
         }
         &__image {
             width: 530px;
-            height: 530px;
+            // height: 530px;
         }
     }
     .quiz {
@@ -202,7 +202,7 @@
         }
         &__image {
             width: 495px;
-            height: 495px;
+            // height: 495px;
         }
     }
     .quiz {
@@ -300,7 +300,7 @@
         }
         &__image {
             width: 385px;
-            height: 414px;
+            // height: 414px;
         }
         &__subtitle {
             font-size: 20px;
@@ -452,7 +452,7 @@
         }
         &__image {
             width: 326px;
-            height: 394px;
+            // height: 394px;
         }
     }
     .button {
@@ -651,6 +651,10 @@
     }
     .header {
         padding-top: 15px;
+        .container {
+            max-width: none;
+            padding: 0 20px;
+        }
         &__text {
             display: none;
         }
@@ -843,7 +847,7 @@
         }
         &__image-mobile {
             width: 335px;
-            height: 335px;
+            // height: 335px;
             object-fit: contain;
         }
     }

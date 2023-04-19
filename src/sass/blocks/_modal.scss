@@ -20,6 +20,14 @@
         opacity: 1;
         visibility: visible;
     }
+    &__container {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
 
     &-main__dialog {
         position: relative;
